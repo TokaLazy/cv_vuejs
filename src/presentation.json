@@ -1,0 +1,54 @@
+{
+  "icon": "tag_faces",
+  "title": "Présentation",
+  "location": {
+    "title": "Localisation",
+    "region": "Ile-de-France",
+    "department": "Seine-et-Marne",
+    "city": "Chelles"
+  },
+  "description": {
+    "title": "Description",
+    "text": "<p>Développeur web, je suis assoiffé de nouvelles connaissances en langages de programmation front-end.</p><p>Tout d'abord autodidacte pendant plusieurs années, j'ai suivi une formation afin d'approfondir mes connaissances et surtout d'en apprendre plus sur le JavaScript et tout ce qui l'entoure.</p><p>À moyen terme j'aimerais me spécialiser dans le JavaScript et toutes ses déclinaisons (NodeJS, jQuery, Vuejs, Angular, React, etc) sans pour autant fermer la porte à d'autres langages incontournables du web !</p>"
+  },
+  "social": {
+    "title": "Réseaux sociaux",
+    "data": [
+      {
+        "id": "Github",
+        "link": "https://github.com/TokaLazy",
+        "title": "Regardez mes projets GitHub"
+      },
+      {
+        "id": "Skype",
+        "link": "skype:tokalazy?add",
+        "title": "Rejoingez-moi sur mon Skype"
+      },
+      {
+        "id": "LinkedIn",
+        "link": "https://www.linkedin.com/in/steeve-clement-a8837b91",
+        "title": "Consultez mon profil LinkedIn"
+      },
+      {
+        "id": "Google+",
+        "link": "https://plus.google.com/104424862838347383216",
+        "title": "Suivez-moi sur mon compte Google Plus"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contactez-moi",
+    "data": [
+      {
+        "id": "cl.steeve@gmail.com",
+        "link": "mailto:cl.steeve@gmail.com",
+        "title": "Enoyez-moi un petit e-mail"
+      },
+      {
+        "id": "06.87.69.30.34",
+        "link": "tel:0687693034",
+        "title": "Appelez moi tout de suite"
+      }
+    ]
+  }
+}

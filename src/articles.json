@@ -1,0 +1,119 @@
+[
+  {
+    "id": "competence",
+    "title": "Compétences",
+    "icon": "code",
+    "icon2": "icon-code",
+    "type": "list",
+    "content": [
+      {
+        "title": "Front-End",
+        "icon": "important_devices",
+        "techno": [
+          ["HTML 5"],
+          ["CSS 3", "Less, Sass"],
+          ["Javascript", "ES5, ES6, jQuery, VueJS"]
+        ]
+      },
+      {
+        "title": "Back-End",
+        "icon": "https",
+        "techno": [
+          ["PHP 5.5"],
+          ["MySQL"]
+        ]
+      },
+      {
+        "title": "Outils",
+        "icon": "build",
+        "techno": [
+          ["Task Manager", "npm, yarn, bower"],
+          ["Git", "terminal, sourcetree"],
+          ["IDE", "VS Code, ST3, Atom"]
+        ]
+      }
+    ]
+  },
+  {
+    "id": "experience",
+    "title": "Expériences professionnelles",
+    "icon": "work",
+    "icon2": "icon-rocket",
+    "type": "section",
+    "content": [
+      {
+        "title": "Cogit Studio",
+        "stint": "Développeur Front-End",
+        "date_start": "10/2015",
+        "date_end": "Ajourd'hui",
+        "description": "En charge de plusieurs sites",
+        "techno": [
+          ["Refonte complet d'un site pour appliquer le responsive"]
+        ]
+      },
+      {
+        "title": "Geeko-HC",
+        "stint": "Développeur Full-Stack",
+        "date_start": "06/2015",
+        "date_end": "08/2015",
+        "description": "Refonte complète du site pour améliorer la sécurité ainsi que pour l'utilisation de PHP en programmation orientée objet.",
+        "techno": [
+          ["Programmation PHP 5.5 POO"],
+          ["Base de données avec MySQL"],
+          ["Intégration HTML 5"],
+          ["Écriture d'un nouveau CSS avec Bourbon et Neat"],
+          ["Versioning du projet grâce à Git en ligne de commande"],
+          ["Animation mineur avec jQuery"]
+        ]
+      },
+      {
+        "title": "Sowefund",
+        "stint": "Intégrateur / Développeur Front-End",
+        "date_start": "02/2015",
+        "date_end": "04/2015",
+        "description": "Chargé de la réduction du CSS et de la réécriture du HTML pour améliorer le référencement naturel grâce aux nouvelles balises.",
+        "techno": [
+          ["Grunt"],
+          ["Versioning du projet grâce à Git en ligne de commande"],
+          ["Utilisation des dernières balises HTML 5"],
+          ["Écriture d'un nouveau CSS avec Bourbon et Neat"]
+        ]
+      },
+      {
+        "title": "Geeko-HC",
+        "stint": "Développeur Full-Stack",
+        "date_start": "01/2013",
+        "date_end": "04/2013",
+        "description": "Conception intégrale d'une plateforme sécurisée par des sessions pour l'enregistrement d'informations sur les points de vie des joueurs du jeu internet Heroes Chronicles.",
+        "techno": [
+          ["Programmation PHP 5.2 procédurale"],
+          ["Base de données avec MySQL"],
+          ["Intégration HTML 5"],
+          ["Stylisation du site avec CSS 3"]
+        ]
+      },
+      {
+        "title": "S.O.S. Serrurerie",
+        "stint": "Responsable en référencement naturel",
+        "date_start": "10/2010",
+        "date_end": "02/2011",
+        "description": "Charger de la création de sites de serrurerie et de l'optimisation de la visibilité sur les différents moteurs de recherche.",
+        "technos": []
+      }
+    ]
+  },
+  {
+    "id": "formation",
+    "title": "Formations",
+    "icon": "assignment",
+    "icon2": "icon-clipboard",
+    "type": "section",
+    "content": [
+      {
+        "title": "Formation Webmaster 3W Academy",
+        "date_start": "12/2013",
+        "date_end": "02/2014"
+      }
+    ]
+  }
+]
