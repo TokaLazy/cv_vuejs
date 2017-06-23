@@ -18,7 +18,10 @@
 
 
 <script>
+import Tilt from 'vanilla-tilt'
+
 export default {
+  component: { Tilt },
   name: 'categorie',
   props: ['item'],
   data () {
@@ -55,6 +58,14 @@ export default {
           self.visible = false
         }
       })
+    })
+
+    let height = self.$el.clientHeight
+    let value = 10 / (height / 250)
+
+    Tilt.init(self.$el, {
+      max: value,
+      speed: 300
     })
   }
 }

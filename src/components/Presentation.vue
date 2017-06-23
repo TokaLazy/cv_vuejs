@@ -32,7 +32,10 @@
 </template>
 
 <script>
+import Tilt from 'vanilla-tilt'
+
 export default {
+  component: { Tilt },
   name: 'presentation',
   data () {
     return {
@@ -43,6 +46,14 @@ export default {
   },
   mounted () {
     const self = this
+
+    let height = self.$el.clientHeight
+    let value = 10 / (height / 250)
+
+    Tilt.init(self.$el, {
+      max: value,
+      speed: 300
+    })
 
     window.visible = (element) => {
       const rect = element.getBoundingClientRect()
