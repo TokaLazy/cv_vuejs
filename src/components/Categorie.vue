@@ -157,6 +157,17 @@ export default {
   .content {
     margin: 3em auto;
     padding: 2em;
+
+    &.list {
+      div {
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      section {
+        width: 50%;
+      }
+    }
   }
 }
 
@@ -182,10 +193,6 @@ export default {
     }
 
     &.list {
-      div {
-        display: flex;
-      }
-
       section {
         width: percentage(1/3);
       }

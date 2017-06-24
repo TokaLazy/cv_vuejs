@@ -87,9 +87,20 @@ export default {
 
   > div {
     display: flex;
+    flex-wrap: wrap;
 
     section {
-      width: 50%;
+      width: 100%;
+    }
+  }
+}
+
+@media screen and (min-width: 900px) {
+  #intro {
+    > div {
+      section {
+        width: 50%;
+      }
     }
   }
 }
