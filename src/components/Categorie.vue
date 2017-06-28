@@ -1,5 +1,5 @@
 <template>
-  <article :id="item.id" class="content" :class="[type, {visible : visible}]">
+  <article :id="item.id" class="content" :class="[item.type, {visible}]">
     <h2><md-icon>{{ item.icon }}</md-icon><span>{{ item.title }}</span></h2>
     <div>
       <section v-for="content in item.content">
@@ -18,10 +18,7 @@
 
 
 <script>
-import Tilt from 'vanilla-tilt'
-
 export default {
-  component: { Tilt },
   name: 'categorie',
   props: ['item'],
   data () {
@@ -31,42 +28,16 @@ export default {
       visible: false
     }
   },
-  computed: {
-    type () {
-      return this.item.type
-    }
-  },
   mounted () {
-    const self = this
-
-    window.visible = (element) => {
-      const rect = element.getBoundingClientRect()
-      const elTop = rect.top <= window.height() / 100 * self.percentageViewTop && rect.bottom >= window.height() / 100 * self.percentageViewTop
-      const elBot = rect.bottom <= window.height() && rect.bottom >= window.height() / 100 * (100 - self.percentageViewTop)
-
-      return {
-        top: rect.top < -75,
-        bloc: (elTop || elBot)
-      }
-    }
+    const self = this;
 
     ['load', 'scroll'].forEach(event => {
       window.addEventListener(event, () => {
-        if (window.visible(self.$el).bloc) {
-          self.visible = true
-        } else {
-          self.visible = false
-        }
+        self.visible = window.visible(self.$el, self.percentageViewTop).bloc
       })
     })
 
-    let height = self.$el.clientHeight
-    let value = 10 / (height / 250)
-
-    Tilt.init(self.$el, {
-      max: value,
-      speed: 300
-    })
+    window.tilt(self.$el)
   }
 }
 </script>

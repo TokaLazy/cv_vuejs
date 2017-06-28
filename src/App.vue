@@ -17,10 +17,11 @@ import ahead from '@/components/Ahead'
 import presentation from '@/components/Presentation'
 import categories from '@/components/Categorie'
 import navigation from '@/components/Navigation'
+import tilt from 'vanilla-tilt'
 
 export default {
   name: 'app',
-  components: { ahead, presentation, categories, navigation },
+  components: { ahead, presentation, categories, navigation, tilt },
   data () {
     return {
       articles: require('@/articles.json'),
@@ -41,8 +42,29 @@ export default {
     this.background.first = '#' + this.colors[0][colorOne]
     this.background.seconde = '#' + this.colors[1][colorTwo]
 
-    window.width = () => window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
     window.height = () => window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight
+
+    window.visible = (element, percentageViewTop) => {
+      const rect = element.getBoundingClientRect()
+      const elTop = rect.top <= window.height() / 100 * percentageViewTop && rect.bottom >= window.height() / 100 * percentageViewTop
+      const elBot = rect.bottom <= window.height() && rect.bottom >= window.height() / 100 * (100 - percentageViewTop)
+
+      return {
+        top: rect.top < -75,
+        lol: {elTop, elBot},
+        bloc: (elTop || elBot)
+      }
+    }
+
+    window.tilt = element => {
+      let height = element.clientHeight
+      let max = 10 / (height / 250)
+
+      tilt.init(element, {
+        max,
+        speed: 300
+      })
+    }
   },
   computed: {
     bg () {
