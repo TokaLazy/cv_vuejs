@@ -1,3 +1,5 @@
 const gp = require('gh-pages')
 
-gp.publish('dist')
+gp.publish('dist', {
+  branch: 'master'
+})
