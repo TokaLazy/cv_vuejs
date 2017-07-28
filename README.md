@@ -1,5 +1,7 @@
 # cv_vuejs
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/88973e2ea2c54e5eb160caf978661aa2)](https://www.codacy.com/app/cl.steeve/cv_vuejs?utm_source=github.com&utm_medium=referral&utm_content=TokaLazy/cv_vuejs&utm_campaign=badger)
+
 > A Vue.js project
 
 ## Build Setup
