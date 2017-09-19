@@ -6,7 +6,6 @@
     "region": "Ile-de-France",
     "department": "Seine-et-Marne",
     "city": "Chelles",
-    "phone": "0687693034",
     "email": "cl.steeve@gmail.com"
   },
   "description": {
@@ -22,19 +21,9 @@
         "title": "Regardez mes projets GitHub"
       },
       {
-        "id": "Skype",
-        "link": "skype:tokalazy?add",
-        "title": "Rejoingez-moi sur mon Skype"
-      },
-      {
         "id": "LinkedIn",
         "link": "https://www.linkedin.com/in/steeve-clement-a8837b91",
         "title": "Consultez mon profil LinkedIn"
-      },
-      {
-        "id": "Google+",
-        "link": "https://plus.google.com/104424862838347383216",
-        "title": "Suivez-moi sur mon compte Google Plus"
       }
     ]
   },

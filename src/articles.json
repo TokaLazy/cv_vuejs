@@ -12,7 +12,7 @@
         "techno": [
           ["HTML 5"],
           ["CSS 3", "Less, Sass"],
-          ["Javascript", "ES5, ES6, jQuery, VueJS"]
+          ["Javascript", "ES5, ES6, jQuery, VueJS, React"]
         ]
       },
       {
@@ -27,8 +27,8 @@
         "title": "Outils",
         "icon": "build",
         "techno": [
-          ["Task Manager", "npm, yarn, bower"],
-          ["Git", "terminal, sourcetree"],
+          ["Task Manager", "npm, yarn, bower, webpack"],
+          ["Git", "cli, sourcetree"],
           ["IDE", "VS Code, ST3, Atom"]
         ]
       }
@@ -42,13 +42,22 @@
     "type": "section",
     "content": [
       {
+        "title": "Webedia",
+        "stint": "Intégrateur",
+        "date_start": "06/2017",
+        "date_end": "Aujourd'hui",
+        "description": ""
+      },
+      {
         "title": "Cogit Studio",
         "stint": "Développeur Front-End",
         "date_start": "10/2015",
-        "date_end": "Ajourd'hui",
+        "date_end": "06/2017",
         "description": "En charge de plusieurs sites",
         "techno": [
-          ["Refonte complet d'un site pour appliquer le responsive"]
+          ["TMA/TME du site Dan-on"],
+          ["Création de Landing-Page"],
+          ["Template d'email"]
         ]
       },
       {
