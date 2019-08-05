@@ -17,12 +17,6 @@
           <li><a class="icon-linkedin" href="https://www.linkedin.com/in/steeve-clement-a8837b91/" title="Consultez mon profil LinkedIn" target="_blank">LinkedIn</a></li>
         </ul>
       </section>
-      <section>
-        <h3>Contactez-moi</h3>
-        <ul>
-          <li><a :href="'mailto:'+data.location.email">{{ data.location.email }}</a></li>
-        </ul>
-      </section>
     </div>
   </article>
 </template>

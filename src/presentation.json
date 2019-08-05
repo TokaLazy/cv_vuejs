@@ -26,20 +26,5 @@
         "title": "Consultez mon profil LinkedIn"
       }
     ]
-  },
-  "contact": {
-    "title": "Contactez-moi",
-    "data": [
-      {
-        "id": "cl.steeve@gmail.com",
-        "link": "mailto:cl.steeve@gmail.com",
-        "title": "Enoyez-moi un petit e-mail"
-      },
-      {
-        "id": "06.87.69.30.34",
-        "link": "tel:0687693034",
-        "title": "Appelez moi tout de suite"
-      }
-    ]
   }
 }
